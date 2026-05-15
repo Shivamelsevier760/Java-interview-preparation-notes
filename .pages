@@ -1,0 +1,15 @@
+title: Senior Java Interview Vault
+nav:
+  - Home: index.md
+  - Java: 01-java
+  - Spring & Microservices: 02-microservices
+  - Medium Series: 03-medium-series
+  - Networking: 04-networking
+  - AWS Cloud Practitioner: 05-aws-cloud-practitioner
+  - AWS Developer Associate: 06-aws-developer-associate
+  - DevOps: 07-devops
+  - Behavioral: 08-behavioral
+  - References: 09-references
+  - Work Notes: 10-work
+  - Personal: 11-personal
+  - Medium Feed: 12-medium-feed

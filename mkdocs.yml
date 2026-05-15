@@ -1,0 +1,130 @@
+site_name: Senior Java Interview Vault
+site_description: Curated Java, Spring Boot, microservices, AWS & system design notes for senior developer interviews.
+site_url: https://shivamelsevier760.github.io/Java-interview-preparation-notes/
+site_author: Shivam Tiwari
+repo_url: https://github.com/Shivamelsevier760/Java-interview-preparation-notes
+repo_name: Shivamelsevier760/Java-interview-preparation-notes
+edit_uri: edit/main/
+
+# Use the repo root as the docs directory so all your existing folders
+# (01-java/, 02-microservices/, etc.) are served directly.
+docs_dir: .
+site_dir: _site
+
+# Don't fail the build on broken links (your Notion export has some legacy ones).
+strict: false
+
+# Files to keep out of the built site.
+exclude_docs: |
+  .github/
+  .git/
+  scripts/
+  _site/
+  *.csv
+  *.zip
+  Export-*
+  notion-export/
+  SETUP.md
+  cheatsheet.md
+  requirements.txt
+  README.md
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs              # top-level sections become tabs
+    - navigation.tabs.sticky       # tabs stay visible on scroll
+    - navigation.sections          # group nested pages under sections
+    - navigation.indexes           # section index pages
+    - navigation.top               # back-to-top button
+    - navigation.tracking          # update URL with current section
+    - navigation.footer            # next/prev page links at bottom
+    - search.suggest               # autocomplete in search
+    - search.highlight             # highlight matches on the page
+    - search.share                 # share a deep link to a search
+    - toc.follow                   # right sidebar follows scroll
+    - content.code.copy            # copy button on code blocks
+    - content.code.annotate        # inline code annotations
+    - content.tabs.link            # link content tabs across pages
+    - content.action.edit          # "Edit this page" button -> GitHub
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - awesome-pages:
+      collapse_single_pages: true
+      strict: false
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      title: On this page
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Shivamelsevier760
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/
+  generator: false   # hide "Made with Material for MkDocs" footer
+
+copyright: Built by Shivam · Interview prep vault
