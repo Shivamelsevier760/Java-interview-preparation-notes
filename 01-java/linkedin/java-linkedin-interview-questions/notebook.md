@@ -1,0 +1,12 @@
+# Notebook (database export)
+
+| ﻿"﻿Name" | Tags | Created | Created by |
+| --- | --- | --- | --- |
+| Roadmap meeting notes | Work | November 29, 2023 | Macha Guest |
+| Interior design inspiration | Home | November 29, 2023 | Henry Wang |
+| Reading recs from Sarah | Home | November 29, 2023 | Varun Rau |
+| Personal websites I like | Home | November 29, 2023 | Holly Avery |
+| Side project ideas | Home | November 29, 2023 | Andrew Lee |
+| Quick grocery list | Home | November 29, 2023 | Erdem Alparslan |
+| Remember to do tomorrow | Work | November 29, 2023 | Jake Trower 🪲 |
+| Social media tips from Kristi | Work | November 29, 2023 | Vicky Zhang |

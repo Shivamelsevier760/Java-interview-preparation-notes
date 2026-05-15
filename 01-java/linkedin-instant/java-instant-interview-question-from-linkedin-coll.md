@@ -1,0 +1,1 @@
+# Java instant interview question from linkedin collection

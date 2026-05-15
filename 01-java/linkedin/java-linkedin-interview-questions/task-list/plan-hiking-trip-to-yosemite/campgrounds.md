@@ -1,0 +1,8 @@
+# Campgrounds (database export)
+
+| ﻿Name | Open | Elevation | Available? |
+| --- | --- | --- | --- |
+| Lower Pines | Apr 1 – Oct 27 | 4000ft | Yes |
+| Tamarack Flat | Apr 1 – Oct 27 | 6300ft | No |
+| Wawona | All year | 4000ft | No |
+| Upper Pines | All year | 4000ft | Yes |

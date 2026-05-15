@@ -1,0 +1,11 @@
+# Journal (database export)
+
+| ﻿Name | Tags | Created |
+| --- | --- | --- |
+| So much to be grateful for | Daily | June 20, 2023 2:26 PM |
+| Daily reflection | Daily | June 20, 2023 2:26 PM |
+| Hawaii Vacation | Special Event | June 20, 2023 2:26 PM |
+| 28th Birthday | Planning | June 20, 2023 2:26 PM |
+| Job Search - September | Work | June 20, 2023 2:26 PM |
+| Just another day | Daily | June 20, 2023 2:26 PM |
+| Date with Stewart | Personal | June 20, 2023 2:26 PM |

@@ -1,0 +1,38 @@
+name: Fetch Medium articles
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # every day at 06:00 UTC
+  workflow_dispatch:       # also runnable manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install feedparser
+
+      - name: Fetch new Medium articles
+        run: python scripts/fetch_medium.py
+
+      - name: Commit new articles
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add 12-medium-feed/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: fetch Medium articles ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "No new articles."
+          fi

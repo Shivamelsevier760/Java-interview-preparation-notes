@@ -1,0 +1,7 @@
+# 6th
+
+Progress: 3
+✍️ Journaling: Yes
+👟 Running: No
+💤 8hrs of sleep: Yes
+🧘 Meditation: Yes

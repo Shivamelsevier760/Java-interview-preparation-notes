@@ -1,0 +1,9 @@
+# Reading List 2 (database export)
+
+| ﻿Name | Author | Completed | Link | Score | Status | Type |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sapiens: A Brief History of Humankind | Yuval Noah Harari | March 1, 2022 | https://www.ynharari.com/book/sapiens-2/ | ⭐️⭐️⭐️⭐️ | Done | Book |
+| Crime and Punishment | Fyodor Dostoevsky | March 28, 2022 | https://www.goodreads.com/book/show/7144.Crime_and_Punishment | ⭐️⭐️⭐️⭐️⭐️ | Done | Book |
+| Netflix: explained | Ezra Klein & Joe Posner | — | https://www.netflix.com/ca/title/80216752 | TBD | In progress | TV Series |
+| Who Will Teach Silicon Valley to Be Ethical? | Kara Swisher | — | https://www.nytimes.com/2018/10/21/opinion/who-will-teach-silicon-valley-to-be-ethical.html | TBD | Not started | Article |
+| Brave New World | Aldous Huxley | March 1, 2022 | https://www.penguin.co.uk/books/431950/brave-new-world-by-aldous-huxley/9781784870140 | ⭐️⭐️⭐️⭐️⭐️ | Done | Book |

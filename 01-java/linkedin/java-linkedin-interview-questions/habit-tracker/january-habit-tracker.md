@@ -1,0 +1,35 @@
+# January Habit Tracker (database export)
+
+| ﻿Day | ✍️ Journaling | 👟 Running | 💤 8hrs of sleep | 🧘 Meditation | Progress |
+| --- | --- | --- | --- | --- | --- |
+| 1st | Yes | Yes | Yes | Yes | 4 |
+| 2nd | Yes | Yes | No | Yes | 3 |
+| 3rd | Yes | Yes | No | No | 2 |
+| 4th | No | No | No | Yes | 1 |
+| 5th | No | Yes | Yes | Yes | 3 |
+| 6th | Yes | No | Yes | Yes | 3 |
+| 7th | Yes | No | No | Yes | 2 |
+| 8th | No | No | Yes | No | 1 |
+| 9th | Yes | Yes | Yes | Yes | 4 |
+| 10th | No | No | No | No | 0 |
+| 11th | No | No | No | Yes | 1 |
+| 12th | No | No | Yes | Yes | 2 |
+| 13th | No | Yes | No | Yes | 2 |
+| 14th | Yes | No | Yes | No | 2 |
+| 15th | Yes | Yes | Yes | Yes | 4 |
+| 16th | No | No | No | Yes | 1 |
+| 17th | No | No | No | No | 0 |
+| 18th | Yes | No | Yes | Yes | 3 |
+| 19th | Yes | No | No | No | 1 |
+| 20th | Yes | Yes | Yes | No | 3 |
+| 21st | No | No | Yes | No | 1 |
+| 22nd | No | No | No | Yes | 1 |
+| 23rd | Yes | No | Yes | No | 2 |
+| 24th | Yes | Yes | Yes | Yes | 4 |
+| 25th | No | No | No | Yes | 1 |
+| 26th | Yes | Yes | Yes | No | 3 |
+| 27th | Yes | No | No | Yes | 2 |
+| 28th | Yes | No | No | Yes | 2 |
+| 29th | No | Yes | Yes | Yes | 3 |
+| 30th | No | No | No | Yes | 1 |
+| 31st | No | No | No | Yes | 1 |
