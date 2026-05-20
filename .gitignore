@@ -16,3 +16,6 @@ Thumbs.db
 # Notion exports — keep originals out of the repo
 *.zip
 notion-export/
+
+# MkDocs build output
+_site/

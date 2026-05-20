@@ -6,9 +6,9 @@ repo_url: https://github.com/Shivamelsevier760/Java-interview-preparation-notes
 repo_name: Shivamelsevier760/Java-interview-preparation-notes
 edit_uri: edit/main/
 
-# Use the repo root as the docs directory so all your existing folders
-# (01-java/, 02-microservices/, etc.) are served directly.
-docs_dir: .
+# Use a dedicated docs directory (MkDocs requires docs_dir to be a child directory
+# of the folder containing mkdocs.yml).
+docs_dir: docs
 site_dir: _site
 
 # Don't fail the build on broken links (your Notion export has some legacy ones).
