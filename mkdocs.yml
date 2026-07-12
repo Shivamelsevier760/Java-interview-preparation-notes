@@ -27,7 +27,7 @@ exclude_docs: |
   SETUP.md
   cheatsheet.md
   requirements.txt
-  README.md
+  /README.md
   12-medium-feed
 
 theme:
