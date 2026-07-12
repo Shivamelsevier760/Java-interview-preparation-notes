@@ -54,6 +54,7 @@ theme:
     - navigation.tabs              # top-level sections become tabs
     - navigation.tabs.sticky       # tabs stay visible on scroll
     - navigation.sections          # group nested pages under sections
+    - navigation.prune             # only render visible nav items (keeps site size under the Pages 10GB limit)
     - navigation.indexes           # section index pages
     - navigation.top               # back-to-top button
     - navigation.tracking          # update URL with current section
