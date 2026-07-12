@@ -28,6 +28,7 @@ exclude_docs: |
   cheatsheet.md
   requirements.txt
   README.md
+  12-medium-feed
 
 theme:
   name: material
